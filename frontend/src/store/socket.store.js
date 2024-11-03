@@ -6,7 +6,7 @@ const useSocketStore = create((set) => ({
   socket: null,
   connectSocket: (userId) => {
     // if (state.socket) return;
-    const socket = io("http://localhost:5000", { query: { userId } });
+    const socket = io("https://socialyte-xulxow301-rajatranjan477gmailcoms-projects.vercel.app", { query: { userId } });
     socket.on("connect", () => {
       console.log("connected");
     });
