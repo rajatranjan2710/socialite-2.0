@@ -85,4 +85,4 @@ export const useAuthStore = create((set) => ({
   },
 }));
 
-export const server = `https://socialyte-xulxow301-rajatranjan477gmailcoms-projects.vercel.app/api/v1`;
+export const server = `https://socialyte.vercel.app/api/v1`;
